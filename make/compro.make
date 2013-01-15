@@ -7,7 +7,6 @@ projects[] = drupal
 
 ; Contrib Modules
 ; ---------------------
-projects[admin][subdir] = contrib
 projects[context][subdir] = contrib
 projects[ctools][subdir] = contrib
 projects[devel][subdir] = contrib
