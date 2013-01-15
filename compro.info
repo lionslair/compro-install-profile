@@ -24,9 +24,6 @@ dependencies[] = file
 dependencies[] = rdf
 
 ; Contrib
-dependencies[] = admin
-dependencies[] = coder
-dependencies[] = coder_review
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
