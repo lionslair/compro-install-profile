@@ -1,0 +1,27 @@
+name = Compro Install Profile
+core = 7.x
+description = A custom install profile extending buildkit.
+
+; Core
+dependencies[] = block
+dependencies[] = contact
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = taxonomy
+
+; Contrib
+dependencies[] = admin
+dependencies[] = coder
+dependencies[] = coder_review
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_ui
