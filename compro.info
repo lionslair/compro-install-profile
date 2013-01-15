@@ -4,13 +4,24 @@ description = A custom install profile extending buildkit.
 
 ; Core
 dependencies[] = block
-dependencies[] = contact
-dependencies[] = dblog
-dependencies[] = field_ui
-dependencies[] = file
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
 dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
 dependencies[] = path
 dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
 
 ; Contrib
 dependencies[] = admin
