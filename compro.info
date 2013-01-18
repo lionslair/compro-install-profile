@@ -34,6 +34,7 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = module_filter
 dependencies[] = admin_toolbar
+dependencies[] = pathauto
 
 ; Custom
 dependencies[] = update_inator
