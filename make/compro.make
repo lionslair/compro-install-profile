@@ -15,6 +15,7 @@ projects[features][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[views][subdir] = contrib
 projects[module_filter] = contrib
+projects[admin_toolbar] = contrib
 
 ; Custom Modules
 --------------------

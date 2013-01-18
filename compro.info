@@ -18,7 +18,6 @@ dependencies[] = taxonomy
 dependencies[] = dblog
 dependencies[] = search
 dependencies[] = shortcut
-dependencies[] = toolbar
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
@@ -34,6 +33,7 @@ dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = module_filter
+dependencies[] = admin_toolbar
 
 ; Custom
 dependencies[] = update_inator
