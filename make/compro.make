@@ -14,6 +14,7 @@ projects[diff][subdir] = contrib
 projects[features][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[views][subdir] = contrib
+projects[module_filter] = contrib
 
 ; Custom Modules
 --------------------

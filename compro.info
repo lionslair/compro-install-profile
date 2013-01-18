@@ -33,6 +33,7 @@ dependencies[] = features
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
+dependencies[] = module_filter
 
 ; Custom
 dependencies[] = update_inator
