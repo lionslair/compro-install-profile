@@ -33,7 +33,7 @@ dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = module_filter
-dependencies[] = admin_toolbar
+dependencies[] = admin_menu
 dependencies[] = pathauto
 
 ; Custom
