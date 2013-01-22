@@ -14,9 +14,9 @@ projects[diff][subdir] = contrib
 projects[features][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[views][subdir] = contrib
-projects[module_filter] = contrib
-projects[admin_toolbar] = contrib
-projects[pathauto] = contrib
+projects[module_filter][subdir] = contrib
+projects[admin_toolbar][subdir] = contrib
+projects[pathauto][subdir] = contrib
 
 ; Custom Modules
 --------------------
