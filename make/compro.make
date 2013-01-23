@@ -16,6 +16,7 @@ projects[strongarm][subdir] = contrib
 projects[views][subdir] = contrib
 projects[module_filter][subdir] = contrib
 projects[admin_menu][subdir] = contrib
+projects[token][subdir] = contrib
 projects[pathauto][subdir] = contrib
 
 ; Custom Modules
