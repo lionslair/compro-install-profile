@@ -31,3 +31,7 @@ projects[update_inator][subdir] = "custom"
 projects[compro][type] = profile
 projects[compro][download][type] = git
 projects[compro][download][url] = https://github.com/tomgeekery/compro.git
+
+; Themes
+; ----------
+projects[] = rubik

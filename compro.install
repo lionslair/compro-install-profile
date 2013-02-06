@@ -70,7 +70,8 @@ function compro_install() {
 
   // Enable some standard blocks.
   $default_theme = variable_get('theme_default', 'bartik');
-  $admin_theme = 'seven';
+  theme_enable(array('rubik'));
+  $admin_theme = 'rubik';
   $blocks = array(
     array(
       'module' => 'system',
@@ -427,8 +428,8 @@ function compro_install() {
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'seven')
+    ->condition('name', 'rubik')
     ->execute();
-  variable_set('admin_theme', 'seven');
+  variable_set('admin_theme', 'rubik');
   variable_set('node_admin_theme', '1');
 }
