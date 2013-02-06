@@ -34,4 +34,5 @@ projects[compro][download][url] = https://github.com/tomgeekery/compro.git
 
 ; Themes
 ; ----------
+projects[] = tao
 projects[] = rubik
