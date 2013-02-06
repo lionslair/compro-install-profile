@@ -34,7 +34,7 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = module_filter
 dependencies[] = admin_menu
-dependencies[] = admin_toolbar
+dependencies[] = admin_menu_toolbar
 dependencies[] = token
 dependencies[] = pathauto
 
