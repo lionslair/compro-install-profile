@@ -22,7 +22,7 @@ projects[pathauto][subdir] = contrib
 projects[metatag][subdir] = contrib
 projects[block_class][subdir] = contrib
 projects[entity][subdir] = contrib
-projects[global_redirect][subdir] = contrib
+projects[globalredirect][subdir] = contrib
 
 ; Custom Modules
 --------------------

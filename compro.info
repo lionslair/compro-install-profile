@@ -38,7 +38,7 @@ dependencies[] = metatag
 dependencies[] = features_extra
 dependencies[] = block_class
 dependencies[] = entity
-dependencies[] = global_redirect
+dependencies[] = globalredirect
 
 ; Custom
 dependencies[] = update_inator
