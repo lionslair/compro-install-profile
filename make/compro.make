@@ -12,12 +12,17 @@ projects[ctools][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[features][subdir] = contrib
+projects[features_extra][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[views][subdir] = contrib
 projects[module_filter][subdir] = contrib
 projects[admin_menu][subdir] = contrib
 projects[token][subdir] = contrib
 projects[pathauto][subdir] = contrib
+projects[metatag][subdir] = contrib
+projects[block_class][subdir] = contrib
+projects[entity][subdir] = contrib
+projects[global_redirect][subdir] = contrib
 
 ; Custom Modules
 --------------------

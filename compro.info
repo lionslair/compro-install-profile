@@ -4,10 +4,7 @@ description = A custom install profile extending buildkit.
 
 ; Core
 dependencies[] = block
-dependencies[] = comment
 dependencies[] = contextual
-dependencies[] = dashboard
-dependencies[] = help
 dependencies[] = image
 dependencies[] = list
 dependencies[] = menu
@@ -37,6 +34,11 @@ dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = token
 dependencies[] = pathauto
+dependencies[] = metatag
+dependencies[] = features_extra
+dependencies[] = block_class
+dependencies[] = entity
+dependencies[] = global_redirect
 
 ; Custom
 dependencies[] = update_inator
