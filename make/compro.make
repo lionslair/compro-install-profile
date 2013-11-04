@@ -3,7 +3,7 @@ core = 7.x
 
 ; Core + Patches
 ; ---------------------
-projects[drupal][type] = core
+projects[] = drupal
 
 ; Contrib Modules
 ; ---------------------
