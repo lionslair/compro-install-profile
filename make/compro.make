@@ -40,4 +40,4 @@ projects[compro][download][url] = git@bitbucket.org:alexfisher/compro_install_pr
 
 ; Themes
 ; ----------
-projects[] = adminimal
+projects[] = adminimal_theme
