@@ -23,6 +23,7 @@ projects[metatag][subdir] = contrib
 projects[block_class][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[globalredirect][subdir] = contrib
+projects[adminimal_admin_menu] = contrib
 
 ; Custom Modules
 --------------------
@@ -39,5 +40,4 @@ projects[compro][download][url] = https://github.com/tomgeekery/compro.git
 
 ; Themes
 ; ----------
-projects[] = tao
-projects[] = rubik
+projects[] = adminimal

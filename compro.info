@@ -31,7 +31,6 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = module_filter
 dependencies[] = admin_menu
-dependencies[] = admin_menu_toolbar
 dependencies[] = token
 dependencies[] = pathauto
 dependencies[] = metatag
@@ -39,6 +38,7 @@ dependencies[] = fe_block
 dependencies[] = block_class
 dependencies[] = entity
 dependencies[] = globalredirect
+dependencies[] = adminimal_admin_menu
 
 ; Custom
 dependencies[] = update_inator
