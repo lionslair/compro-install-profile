@@ -23,12 +23,12 @@ projects[metatag][subdir] = contrib
 projects[block_class][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[globalredirect][subdir] = contrib
-projects[adminimal_admin_menu] = contrib
+projects[adminimal_admin_menu][subdir] = contrib
 
 ; Custom Modules
 --------------------
 projects[update_inator][download][type] = "git"
-projects[update_inator][download][url] = "git://github.com/tomgeekery/update_inator.git"
+projects[update_inator][download][url] = "git@bitbucket.org:alexfisher/update_inator.git"
 projects[update_inator][type] = "module"
 projects[update_inator][subdir] = "custom"
 
@@ -36,7 +36,7 @@ projects[update_inator][subdir] = "custom"
 ; ----------
 projects[compro][type] = profile
 projects[compro][download][type] = git
-projects[compro][download][url] = https://github.com/tomgeekery/compro.git
+projects[compro][download][url] = git@bitbucket.org:alexfisher/compro_install_profile.git
 
 ; Themes
 ; ----------
