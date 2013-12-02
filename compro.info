@@ -18,6 +18,7 @@ dependencies[] = shortcut
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
+dependencies[] = comment
 
 ; Contrib
 dependencies[] = context
