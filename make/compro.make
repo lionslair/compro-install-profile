@@ -27,10 +27,15 @@ projects[adminimal_admin_menu][subdir] = contrib
 
 ; Custom Modules
 --------------------
-projects[update_inator][download][type] = "git"
-projects[update_inator][download][url] = "https://tomgeekery@bitbucket.org/alexfisher/update_inator.git"
-projects[update_inator][type] = "module"
-projects[update_inator][subdir] = "custom"
+projects[custom][download][type] = "git"
+projects[custom][download][url] = "https://tomgeekery@bitbucket.org/tomgeekery/custom.git"
+projects[custom][type] = "module"
+projects[custom][subdir] = "custom"
+
+projects[compro_credit][download][type] = "git"
+projects[compro_credit][download][url] = "https://tomgeekery@bitbucket.org/tomgeekery/compro_credit.git"
+projects[compro_credit][type] = "module"
+projects[compro_credit][subdir] = "custom"
 
 ; Profile
 ; ----------
