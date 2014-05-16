@@ -24,6 +24,7 @@ projects[block_class][subdir] = contrib
 projects[entity][subdir] = contrib
 projects[globalredirect][subdir] = contrib
 projects[adminimal_admin_menu][subdir] = contrib
+projects[blockify][subdir] = contrib
 
 ; Custom Modules
 --------------------

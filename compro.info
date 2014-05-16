@@ -40,6 +40,7 @@ dependencies[] = block_class
 dependencies[] = entity
 dependencies[] = globalredirect
 dependencies[] = adminimal_admin_menu
+dependencies[] = blockify
 
 ; Custom
 dependencies[] = compro_custom
