@@ -42,6 +42,4 @@ dependencies[] = globalredirect
 dependencies[] = adminimal_admin_menu
 
 ; Custom
-dependencies[] = custom
-dependencies[] = compro_credit
-
+dependencies[] = compro_custom
