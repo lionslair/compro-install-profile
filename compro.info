@@ -47,7 +47,6 @@ dependencies[] = entityreference
 dependencies[] = link
 dependencies[] = email
 dependencies[] = smtp
-dependencies[] = coder
 dependencies[] = transliteration
 
 ; Custom
