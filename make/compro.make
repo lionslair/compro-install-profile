@@ -31,7 +31,6 @@ projects[entityreference][subdir] = contrib
 projects[link][subdir] = contrib
 projects[email][subdir] = contrib
 projects[smtp][subdir] = contrib
-projects[coder][subdir] = contrib
 projects[jquery_update][subdir] = contrib
 projects[transliteration][subdir] = contrib
 projects[blockify][subdir] = contrib
