@@ -53,6 +53,11 @@ projects[compro_credit][download][url] = https://bitbucket.org/alexfisher/compro
 projects[compro_credit][type] = module
 projects[compro_credit][subdir] = custom
 
+projects[compro_credit][download][type] = git
+projects[compro_credit][download][url] = https://bitbucket.org/alexfisher/compro_content.git
+projects[compro_credit][type] = module
+projects[compro_credit][subdir] = custom
+
 ; Profile
 ; ----------
 projects[compro][type] = profile
