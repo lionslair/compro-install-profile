@@ -53,4 +53,3 @@ dependencies[] = title
 
 ; Custom
 dependencies[] = compro_custom
-dependencies[] = compro_content
