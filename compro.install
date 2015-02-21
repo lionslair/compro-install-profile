@@ -15,6 +15,9 @@ function compro_install() {
   // Assign a few permissions.
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content'));
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));
+  
+  // Only admins can create accounts.
+  variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
 
   // Enable the admin theme.
   db_update('system')
