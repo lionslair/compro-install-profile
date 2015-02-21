@@ -54,3 +54,4 @@ dependencies[] = file_entity
 
 ; Custom
 dependencies[] = compro_custom
+dependencies[] = compro_content
