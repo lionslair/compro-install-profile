@@ -18,6 +18,26 @@ function compro_install() {
   
   // Only admins can create accounts.
   variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
+  
+  // Enable blocks.
+  $blocks = array(
+    array(
+      'module' => 'compro_credit',
+      'delta' => 'compro_credit',
+      'theme' => 'bartik',
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'footer',
+      'pages' => '',
+      'cache' => 1,
+    ),
+  );
+  
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($blocks as $block) {
+    $query->values($block);
+  }
+  $query->execute();
 
   // Enable the admin theme.
   db_update('system')
