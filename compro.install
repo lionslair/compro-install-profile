@@ -49,11 +49,11 @@ function compro_install() {
   variable_set('admin_theme', 'compro_adminimal');
   variable_set('node_admin_theme', '1');
 
-  // Set jquery update versions.
+  // JQuery update settings.
   variable_set('jquery_update_jquery_version', '1.7');
   variable_set('jquery_update_jquery_admin_version', '1.5');
 
-  // Set blockify settings.
+  // Blockify settings.
   $blockification = array(
     'blockify-logo' => 'blockify-logo',
     'blockify-site-name' => 'blockify-site-name',
@@ -65,6 +65,20 @@ function compro_install() {
     'blockify-actions' => 'blockify-actions',
     'blockify-feed-icons' => 'blockify-feed-icons',
   );
-
+  
   variable_set('blockify_blocks', $blockification);
+
+  // Title settings.
+  $title_settings = array(
+    'auto_attach' => array(
+      'title' => 'title',
+    ),
+    'hide_label' => array(
+      'page' => 0,
+      'entity' => 0,
+    ),
+  );
+
+  variable_set('title_node', $title_settings);
+
 }
