@@ -45,7 +45,6 @@ dependencies[] = link
 dependencies[] = email
 dependencies[] = smtp
 dependencies[] = transliteration
-dependencies[] = googleanalytics
 dependencies[] = title
 dependencies[] = file_entity
 
