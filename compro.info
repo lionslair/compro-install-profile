@@ -52,3 +52,4 @@ dependencies[] = file_entity
 dependencies[] = compro_custom
 dependencies[] = compro_content
 dependencies[] = compro_credit
+dependencies[] = contact_info

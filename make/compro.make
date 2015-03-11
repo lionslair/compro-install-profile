@@ -53,6 +53,11 @@ projects[compro_credit][download][url] = https://bitbucket.org/alexfisher/compro
 projects[compro_credit][type] = module
 projects[compro_credit][subdir] = custom
 
+projects[contact_info][download][type] = git
+projects[contact_info][download][url] = https://bitbucket.org/alexfisher/contact_info.git
+projects[contact_info][type] = module
+projects[contact_info][subdir] = custom
+
 projects[compro_content][download][type] = git
 projects[compro_content][download][url] = https://bitbucket.org/alexfisher/compro_content.git
 projects[compro_content][type] = module
