@@ -69,6 +69,12 @@ projects[compro][download][url] = https://bitbucket.org/alexfisher/compro_instal
 ; ----------
 projects[] = adminimal_theme
 
+; Custom Themes
+; --------------------
+projects[compro_adminimal][type] = theme
+projects[compro_adminimal][download][type] = git
+projects[compro_adminimal][download][url] = https://bitbucket.org/alexfisher/compro_adminimal.git
+
 ; Libraries
 ; ----------
 libraries[chosen][download][type] = file

@@ -39,13 +39,14 @@ function compro_install() {
   }
   $query->execute();
 
-  // Enable the admin theme.
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', 'adminimal')
-    ->execute();
-  variable_set('admin_theme', 'adminimal');
+  // Enable the admin themes.
+  theme_enable(array(
+    'adminimal',
+    'compro_adminimal',
+  ));
+
+  // Set compro_adminial as the admin theme.
+  variable_set('admin_theme', 'compro_adminimal');
   variable_set('node_admin_theme', '1');
 
   // Set jquery update versions.
