@@ -29,7 +29,6 @@ dependencies[] = module_filter
 dependencies[] = admin_menu
 dependencies[] = token
 dependencies[] = pathauto
-dependencies[] = fe_block
 dependencies[] = block_class
 dependencies[] = entity
 dependencies[] = globalredirect

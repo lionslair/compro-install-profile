@@ -11,7 +11,6 @@ projects[ctools][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[diff][subdir] = contrib
 projects[features][subdir] = contrib
-projects[features_extra][subdir] = contrib
 projects[strongarm][subdir] = contrib
 projects[views][subdir] = contrib
 projects[module_filter][subdir] = contrib
