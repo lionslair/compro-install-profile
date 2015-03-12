@@ -58,10 +58,12 @@ projects[contact_info][download][url] = https://bitbucket.org/alexfisher/contact
 projects[contact_info][type] = module
 projects[contact_info][subdir] = custom
 
+; Features
+--------------------
 projects[compro_content][download][type] = git
 projects[compro_content][download][url] = https://bitbucket.org/alexfisher/compro_content.git
 projects[compro_content][type] = module
-projects[compro_content][subdir] = custom
+projects[compro_content][subdir] = features
 
 ; Profile
 ; ----------
