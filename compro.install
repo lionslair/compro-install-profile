@@ -65,7 +65,7 @@ function compro_install() {
     'blockify-actions' => 'blockify-actions',
     'blockify-feed-icons' => 'blockify-feed-icons',
   );
-  
+
   variable_set('blockify_blocks', $blockification);
 
   // Title settings.
@@ -80,5 +80,8 @@ function compro_install() {
   );
 
   variable_set('title_node', $title_settings);
+
+  // Pathauto settings.
+  variable_set('pathauto_node_pattern', '[node:content-type]/[node:title]');
 
 }
