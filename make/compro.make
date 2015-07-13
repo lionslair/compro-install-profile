@@ -3,7 +3,7 @@ core = 8.x
 
 ; Drupal core
 projects[drupal][type] = core
-projects[drupal][version] = 8.0.0-beta11
+projects[drupal][version] = 8.0.0-beta12
 
 ; Download the install profile and recursively build all its dependencies:
 projects[compro][type] = profile
