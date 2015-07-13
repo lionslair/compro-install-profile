@@ -12,76 +12,9 @@
  * @see system_install()
  */
 function compro_install() {
-  // Assign a few permissions.
-  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content'));
-  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));
-
-  // Only admins can create accounts.
-  variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
-
-  // Enable blocks.
-  $blocks = array(
-    array(
-      'module' => 'compro_credit',
-      'delta' => 'compro_credit',
-      'theme' => 'bartik',
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'footer',
-      'pages' => '',
-      'cache' => 1,
-    ),
-  );
-
-  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
-  foreach ($blocks as $block) {
-    $query->values($block);
-  }
-  $query->execute();
-
-  // Enable the admin themes.
-  theme_enable(array(
-    'adminimal',
-    'compro_adminimal',
-  ));
-
-  // Set compro_adminial as the admin theme.
-  variable_set('admin_theme', 'compro_adminimal');
-  variable_set('node_admin_theme', '1');
-
-  // JQuery update settings.
-  variable_set('jquery_update_jquery_version', '1.7');
-  variable_set('jquery_update_jquery_admin_version', '1.5');
-
-  // Blockify settings.
-  $blockification = array(
-    'blockify-logo' => 'blockify-logo',
-    'blockify-site-name' => 'blockify-site-name',
-    'blockify-site-slogan' => 'blockify-site-slogan',
-    'blockify-page-title' => 'blockify-page-title',
-    'blockify-breadcrumb' => 'blockify-breadcrumb',
-    'blockify-tabs' => 'blockify-tabs',
-    'blockify-messages' => 'blockify-messages',
-    'blockify-actions' => 'blockify-actions',
-    'blockify-feed-icons' => 'blockify-feed-icons',
-  );
-
-  variable_set('blockify_blocks', $blockification);
-
-  // Title settings.
-  $title_settings = array(
-    'auto_attach' => array(
-      'title' => 'title',
-    ),
-    'hide_label' => array(
-      'page' => 0,
-      'entity' => 0,
-    ),
-  );
-
-  variable_set('title_node', $title_settings);
-
-  // Pathauto settings.
-  variable_set('pathauto_node_pattern', '[node:content-type]/[node:title]');
-
+  // First, do everything in standard profile.
+  // @todo: I would ideally like for this to be a simple call to
+  // module_load_install('standard') but that doesn't seem to fly.
+  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
+  standard_install();
 }
