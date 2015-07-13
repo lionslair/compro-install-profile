@@ -21,12 +21,18 @@ dependencies:
   - comment
   - contextual
   - contact
+  - menu_link_content
+  - datetime
+  - block_content
   - quickedit
+  - editor
+  - entity_reference
   - help
   - image
   - menu_ui
   - options
   - path
+  - page_cache
   - taxonomy
   - dblog
   - search
@@ -34,6 +40,10 @@ dependencies:
   - toolbar
   - field_ui
   - file
+  - rdf
   - views
   - views_ui
-  - editor
+  - tour
+themes:
+  - bartik
+  - seven
