@@ -4,6 +4,8 @@
  * Install, update and uninstall functions for the compro install profile.
  */
 
+use Drupal\Core\Config\ConfigFactoryInterface;
+
 /**
  * Implements hook_install().
  *
@@ -12,9 +14,6 @@
  * @see system_install()
  */
 function compro_install() {
-  // First, do everything in standard profile.
-  // @todo: I would ideally like for this to be a simple call to
-  // module_load_install('standard') but that doesn't seem to fly.
-  include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
-  standard_install();
+  // Enable the admin theme.
+  \Drupal::configFactory()->getEditable('node.settings')->set('use_admin_theme', '1')->save();
 }
